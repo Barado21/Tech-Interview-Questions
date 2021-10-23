@@ -1,6 +1,7 @@
 class Solution {
 public:
     bool canJump(vector<int>& nums) {
+        // Size of nums.
         int n=nums.size();
         vector<bool> x(n,false);
         x[0]=true;
